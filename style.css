@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    font-family: "Poppins";
+    -webkit-font-smoothing: antialiased;
+    background-color: white;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    margin: 0 auto; 
+    max-width: 1200px;
+    width: 100%;
+
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.lupa_icon {
+    float: right;
+    width: 19px;
+    height: auto;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 40px 0 40px;
+
+height: 100px;
+
+background-color: #e43071;
+margin: 0;
+}
+
+.logo {
+    position: relative;
+
+    font-size: 40px;
+    line-height: 1.095;
+    font-weight: 800;
+    color: white;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+span.lyfe {
+    color: #e999b6;
+}
+
+.header__list {
+display: flex;
+align-items: center;
+margin: 0 auto;
+column-gap: 70px;
+
+a{
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+    opacity: 0.9;
+    font-size: 16px;
+}
+}
+
+.header__nav {
+    width: 100%;
+    max-width: 1400px;
+    padding-inline: 15px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    text-decoration: none;
+
+    background-color: rgb(255, 255, 255);
+    color: #e43071;
+
+    font-size: 16px;
+    font-weight: 500;
+    box-sizing: border-box;
+    border-radius: 99px; 
+    display: inline-block; 
+    padding: 16px 56px; 
+    line-height: 37px;
+}
+
+
+
+
+.welcome {
+    height: 705px;
+
+    background-image: url("./images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome__subtitle {
+    position: relative;
+    padding-top: 150px;
+
+    font-size: 70px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.welcome__subtitle2{
+    position: relative;
+
+    font-size: 70px;
+}
+
+.btn_pink {
+    margin-top: 15px;
+    margin-left: 477px;
+
+    text-decoration: none;
+
+    background-color: #e43071;
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: 500;
+    box-sizing: border-box;
+    border-radius: 99px; 
+    display: inline-block; 
+    padding: 16px 56px; 
+    line-height: 37px;
+}
+
+.btn_white {
+    text-decoration: none;
+
+    background-color: #ffffff;
+    color: #e43071;
+    box-shadow: 0px 0px 2px 2px #e43071;
+
+    font-size: 16px;
+    font-weight: 500;
+    box-sizing: border-box;
+    border-radius: 99px; 
+    display: inline-block; 
+    padding: 16px 56px; 
+    line-height: 37px;
+}
+
+
+
+
+
+.meet {
+    height: 800px;
+}
+
+.twotogether {
+    display: flex;
+    flex-direction: row;
+}
+
+.div_text {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 50px;
+
+
+
+    align-items: center;
+    flex: 0 0 50%;
+}
+
+.meet_subtitle {
+    font-size: 50px;
+    color: #e43071;
+    margin: 0 auto;
+}
+.meet_text {
+    position: relative;
+
+    margin: 0 auto;
+
+    font-size: 16px;
+    line-height: 40px;
+    text-align: left;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.img_gantel {
+position: relative;
+top: 120px; 
+
+background-position: center;
+background-size: cover;
+}
+
+
+
+
+.become {
+    background-image: url("./images/sportgirl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 705px;
+}
+
+.become__subtitle {
+    position: relative;
+    margin: 0;
+    padding-top: 225px;
+
+    font-size: 80px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.become__title {
+    position: relative;
+
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+.twotogether_premium {
+    display: flex;
+    flex-direction: row;
+}
+
+.premium {
+    height: 800px;
+}
+
+.premium_div {
+    position: relative;
+    right: 30px;
+
+}
+
+.div_text_premium {
+    display: flex;
+    position: relative;
+    top: 100px;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 40px;
+    flex: 0 0 50%;
+}
+
+.premium_subtitle {
+    font-size: 40px;
+    color: #e43071;
+    margin: 0 auto;
+}
+.premium_text {
+    position: relative;
+
+    margin: 0 auto;
+
+    font-size: 16px;
+    line-height: 40px;
+    text-align: left;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.img_gym {
+    position: relative;
+    top: 120px; 
+    width: 550px;
+    height: 450px;
+    
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.real_story {
+    height: 900px;
+    background: rgb(244,227,233);
+    background: linear-gradient(0deg, rgba(244,227,233,1) 0%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
+}
+.div_real_together {
+padding-top: 110-px;
+padding-bottom: 80px;
+}
+
+.real_story_text {
+    font-size: 48px;
+    color: #424242;
+    font-weight: bold;
+}
+.real_story_subtitle {
+    font-size: 18px;
+    color: #424242;
+}
+
+.threetogether {
+    display: flex;
+}
+
+.column_two {
+    display: block;
+}
+
+.kglost {
+    padding-top: 35px;
+    padding-left: 27px;
+    padding-right: 32px;
+    padding-bottom: 38px;
+    margin-top: 60px;
+    margin-left: 100px;
+
+    width: 349px;
+    height: 445px;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18)
+}
+
+.kglost_two{  
+    padding-top: 35px;
+    padding-left: 27px;
+    padding-right: 32px;
+    padding-bottom: 38px;
+    margin-left: 50px;
+    margin-top: -110px;
+
+    width: 449px;
+    height: 343px;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18)
+}
+
+.kglost_three {
+    padding-top: 35px;
+    padding-left: 27px;
+    padding-right: 32px;
+    padding-bottom: 38px;
+    margin-top: 30px;
+    margin-left: 50px;
+
+    width: 351px;
+    height: 278px;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18)
+}
+
+.kglost_title {
+    position: relative;
+    font-size: 38px;
+    color:#e43071;
+    font-weight: bold;
+}
+
+.lapki {
+position: absolute;
+margin-top: 17px;
+
+width: 28px;
+height: 28px;
+}
+
+.kglost_subtitle {
+    margin-top: 29px;
+    padding-left: 35px;
+
+    color: #424242;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.image_round {
+    margin-left: 37px;
+    margin-top: 15px;
+
+    width: 59px;
+    height: 58px;
+
+
+    border-radius: 60%;
+}
+
+.text_round {
+    margin-top: 9px;
+    margin-left: 21px;
+
+    font-size: 18px;
+    font-weight: 550;
+    color: #424242;
+}
+
+.text_under_round {
+    margin-left: 21px;
+
+    font-size: 14px;
+    font-weight: 300;
+    color: #424242;
+}
+
+.img_and_text {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.dontforget {
+    background: #e43071;
+    height: 500px;
+}
+
+.forget_text_iphone {
+    display: flex;
+    flex-direction: row;
+}
+
+.forget_text {
+    margin-top: 110px;
+}
+.forget_title {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 630;
+}
+.forget_subtitle {
+margin-top: 20px;
+margin-bottom: 20px;
+
+    line-height: 37px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.forget_download {
+    font-size: 16px;
+    font-weight: 150;
+    color: #ffffff;
+}
+.image_iphone {
+    margin-top: 40px;
+    margin-left: 400px;
+}
+.iphone {
+    width: 240px;
+    height: 420px;
+}
+.google {
+    width: 145px;
+    height: 60px;
+}
+.app {
+    width: 145px;
+    height: 60px;
+}
+
+
+.socials {
+    background: #EDEDED;
+    height: 350px;
+}
+
+.socials_title {
+    padding-top: 90px;
+    padding-bottom: 60px;
+    text-align: center;
+
+    font-size: 40px;
+    font-weight: 700;
+    color: #e43071;
+}
+.btn_socials {
+}
+.facebook {
+}
+.youtube {
+}
+.instagram {
+}
+
+
+
+@media (max-width: 768px) {
+/* Header */
+        .header__list {
+        display: none;
+        }
+
+        .lupa_icon {
+        position: relative;
+        margin-left: 350px;
+        }
+
+        .btn {
+        display: block;
+        }
+
+
+
+
+
+
+/* Welcome */
+        .welcome {
+        width: 100%;
+        background-position: center;
+        }
+
+    .welcome__subtitle {
+        position: relative;
+        padding-top: 140px;
+    
+        font-size: 32px;
+    }
+
+    .welcome__subtitle2 {
+        font-size: 32px;
+    }
+
+    .btn_pink {
+        margin-top: 15px;
+        width: 90%;
+        text-align: center;
+        margin: 0;
+        }
+    }
+
+
+
+
+
+@media (max-width: 768px) {
+/* Meet */
+    .twotogether {
+        display: block;
+    }
+
+    .meet_div {
+        margin-top: 100px;
+        margin-right: 40px;
+    }
+
+    .div_text {
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .img_gantel {
+        width: 100%;
+    }
+
+    .btn_white {
+        margin-top: 15px;
+        width: 90%;
+        text-align: center;
+        margin: 0;
+    }
+
+
+
+
+
+
+/* Become */
+    .become {
+        margin-top: 500px;
+
+        width: 100%;
+        background-position: center;
+    }
+
+    .img_gym_class {
+        width: 100%;
+    }
+
+    .become__subtitle {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .become__title {
+    font-size: 16px;
+    text-align: center;
+    }
+
+
+
+
+
+
+/* Premium */
+    .twotogether_premium {
+        display: block;
+    }
+
+
+
+
+
+
+/* Real Story */
+    .div_real_together {
+        margin-top: 400px;
+    }
+
+    .column_two {
+        display: none;
+    }
+
+    .real_story_text {
+        font-size: 26px;
+    }
+    .real_story_subtitle {
+        font-size: 10px;
+    }
+
+    .kglost {
+        width: 243px;
+        height: 310px;
+    }
+
+    .kglost_title {
+        font-size: 26px;
+    }
+
+    .kglost_subtitle {
+        font-size: 13px;
+    }
+    .image_round {
+        width: 40px;
+        height: 40px;
+    }
+}
